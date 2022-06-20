@@ -73,7 +73,7 @@ function love.draw()
 
     -- condensed onto one line from last example
     -- note we are now using virtual width and height now for text placement
-    love.graphics.printf('Hello Pong!', 0, VIRTUAL_HEIGHT / 2 - 6, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Hello Pong!', 0, VIRTUAL_HEIGHT/2-6, VIRTUAL_WIDTH, 'center')
 
     -- end rendering at virtual resolution
     push:apply('end')
